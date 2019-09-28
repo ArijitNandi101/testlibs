@@ -1,5 +1,6 @@
 package org.folder;
-
-def foo(def str){
-  "Hey ${str}!!!"
+class Test{
+  def foo(def str){
+    "Hey ${str}!!!"
+  }
 }
