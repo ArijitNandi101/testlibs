@@ -12,7 +12,7 @@ def call(def someSr="none"){
                 }
             }
         steps{
-          echo "$someSr $params.PERSON"
+          echo "$someSr $PERSON"
         }
       }
     }
